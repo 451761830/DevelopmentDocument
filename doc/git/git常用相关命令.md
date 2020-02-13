@@ -27,3 +27,21 @@
 
 - 删除分支
 	> git branch -d dev
+
+## 标签管理
+
+- 创建标签
+	> git tag v1.0
+
+- 查看标签
+	> git tag	
+
+- 删除标签
+	> git tag -d v1.0
+
+- 推送标签到远程仓库
+	> git push origin v1.0
+
+- 删除远程标签需要先删除本地标签
+	> git tag -d v1.0
+	> 
